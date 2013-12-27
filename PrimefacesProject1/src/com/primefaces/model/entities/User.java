@@ -4,6 +4,8 @@ public class User {
 	
 	private String email;
 	private String password;
+	
+	
 	public String getEmail() {
 		return email;
 	}
@@ -15,6 +17,10 @@ public class User {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	@Override
+	public String toString() {
+		return "User [email=" + email + ", password=" + password + "]";
 	}
 	
 	
