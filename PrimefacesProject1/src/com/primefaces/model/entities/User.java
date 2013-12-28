@@ -23,6 +23,8 @@ public class User {
 		return "User [email=" + email + ", password=" + password + "]";
 	}
 	
-	
+	public void doAction(){
+		System.out.println("doAction");
+	}
 
 }
