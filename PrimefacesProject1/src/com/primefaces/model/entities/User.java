@@ -26,5 +26,10 @@ public class User {
 	public void doAction(){
 		System.out.println("doAction");
 	}
+	
+	public String aller(){
+		return "";
+	}
+	
 
 }
